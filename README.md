@@ -1,4 +1,4 @@
-# find-cargo-toml
+# 🔎 find-cargo-toml
 
 <!-- automdrs:badges showCrateVersion="true" showCrateDownloads="true" showCrateDocs="true" showCommitActivity="true" showRepoStars="true" -->
 ![Crates.io Version](https://img.shields.io/crates/v/find-cargo-toml)
