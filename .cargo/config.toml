@@ -1,0 +1,7 @@
+# Use rust-toolchain.toml for channel/version.
+# Lints are applied by default to all crates in the workspace.
+[lints.rust]
+unsafe_code = "forbid"
+
+[lints.clippy]
+all = "warn"

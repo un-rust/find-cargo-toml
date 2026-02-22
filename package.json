@@ -1,0 +1,47 @@
+{
+	"name": "package-name",
+	"type": "module",
+	"scripts": {
+		"build": "cargo build",
+		"bump:major": "unrust bump --bumpType major",
+		"bump:minor": "unrust bump --bumpType minor",
+		"bump:patch": "unrust bump --bumpType patch",
+		"check": "biome check . --write --unsafe",
+		"commit": "cz",
+		"format": "cargo fmt",
+		"init": "unrust init",
+		"lint": "cargo clippy",
+		"prepare": "lefthook install",
+		"release": "unrust release",
+		"test": "cargo test",
+		"test:coverage": "cargo tarpaulin --fail-under 95 --exclude-files 'src/main.rs'"
+	},
+	"config": {
+		"commitizen": {
+			"path": "cz-conventional-changelog"
+		}
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.4.3",
+		"@commitlint/cli": "20.4.2",
+		"@commitlint/config-conventional": "20.4.2",
+		"@commitlint/types": "20.4.0",
+		"@iarna/toml": "2.2.5",
+		"@tsconfig/node24": "24.0.4",
+		"@types/inquirer": "9.0.9",
+		"@types/node": "25.3.0",
+		"changelogen": "0.6.2",
+		"commitizen": "4.3.1",
+		"consola": "3.4.2",
+		"cz-conventional-changelog": "3.3.0",
+		"husky": "9.1.7",
+		"inquirer": "13.2.5",
+		"lefthook": "2.1.1",
+		"open": "11.0.0",
+		"rslog": "2.0.0",
+		"simple-git": "3.31.1",
+		"typescript": "5.9.3",
+		"unrust-toolbox": "0.0.2"
+	},
+	"packageManager": "bun@1.3.9"
+}

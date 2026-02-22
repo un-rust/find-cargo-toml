@@ -1,0 +1,26 @@
+output:
+  - execution
+  - failure
+
+pre-commit:
+  parallel: true
+  commands:
+    clippy:
+      run: bun run lint
+      glob: "*.rs"
+      files: git diff --name-only --cached -- "*.rs"
+
+    fmt:
+      run: bun run format
+      glob: "*.rs"
+      files: git diff --name-only --cached -- "*.rs"
+      stage_fixed: true
+
+    check_ts:
+      run: bun run check
+      stage_fixed: true
+
+commit-msg:
+  commands:
+    commitlint:
+      run: bunx commitlint --edit $1
