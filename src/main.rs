@@ -1,4 +1,4 @@
-use package_name::hello;
+use find_cargo_toml::hello;
 
 fn main() {
     println!("{}", hello("un-rust"));

@@ -1,15 +1,15 @@
 [package]
-name = "package-name"
-version = "3.1.2"
+name = "find-cargo-toml"
+version = "1.0.0"
 authors = [ "YONGQI <betterhyq@qq.com>" ]
 edition = "2024"
-description = "A template for a new Rust project"
-documentation = "https://docs.rs/package-name"
+description = "Find Cargo.toml by walking up the directory tree"
+documentation = "https://docs.rs/find-cargo-toml"
 readme = "README.md"
-homepage = "https://github.com/un-rust/package-name"
-repository = "https://github.com/un-rust/package-name"
+homepage = "https://github.com/un-rust/find-cargo-toml"
+repository = "https://github.com/un-rust/find-cargo-toml"
 license = "Apache-2.0"
-keywords = [ ]
+keywords = [ "cargo", "toml", "find", "directory", "tree" ]
 categories = [ "development-tools" ]
 rust-version = "1.85.0"
 

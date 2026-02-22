@@ -1,5 +1,5 @@
 {
-	"name": "package-name",
+	"name": "find-cargo-toml",
 	"type": "module",
 	"scripts": {
 		"build": "cargo build",
