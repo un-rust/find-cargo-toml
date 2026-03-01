@@ -39,7 +39,7 @@
 		"lefthook": "2.1.1",
 		"open": "11.0.0",
 		"rslog": "2.0.0",
-		"simple-git": "3.32.1",
+		"simple-git": "3.32.3",
 		"typescript": "5.9.3",
 		"unrust-toolbox": "0.0.2"
 	},
