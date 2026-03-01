@@ -35,7 +35,7 @@
 		"consola": "3.4.2",
 		"cz-conventional-changelog": "3.3.0",
 		"husky": "9.1.7",
-		"inquirer": "13.2.5",
+		"inquirer": "13.3.0",
 		"lefthook": "2.1.1",
 		"open": "11.0.0",
 		"rslog": "2.0.0",
